@@ -4,7 +4,7 @@ In this tutorial, we turn a simple Python function into a serverless HTTP API th
 
 ## Architecture
 
-<a title="Architecture.png" aria-label="Architecture.png, (File)" class="Link--primary" href="/markbuckle/AWS-Python-Deploy/blob/main/Architecture.png">Architecture.png</a>
+<img title="Architecture.png" aria-label="Architecture.png, (File)" class="Link--primary" href="/markbuckle/AWS-Python-Deploy/blob/main/Architecture.png">Architecture.png>
 
 ## Writing your Python function
 
