@@ -42,7 +42,6 @@ Go to the [AWS Console](https://us-east-1.console.aws.amazon.com/console/home?re
 
 <br></br>
 As per[ Amazon's website](https://aws.amazon.com/about-aws/whats-new/2019/12/amazon-api-gateway-offers-faster-cheaper-simpler-apis-using-http-apis-preview/), HTTP APIs are up to 71% cheaper compared to REST APIs, but offer only API proxy functionality. HTTP APIs are optimized for performance - they offer the core functionality of API Gateway at a lower price.
-<br></br>
 
 <li>For security select 'Open' then click 'Add'</li>
 
