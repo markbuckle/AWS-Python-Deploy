@@ -11,10 +11,10 @@ In this tutorial, we turn a simple Python function into a serverless HTTP API th
 Create a simple python function i.e. one that suggests/prints a random drink
 
 ### Creating a Lambda function
-
+<p>
 <li>Go to the [AWS Console](https://us-east-1.console.aws.amazon.com/console/home?region=us-east-1#)
   
-<li>search for ['Lambda'](https://us-east-1.console.aws.amazon.com/lambda/home?region=us-east-1#/functions).</li>
+<li>search for ['Lambda'](https://us-east-1.console.aws.amazon.com/lambda/home?region=us-east-1#/functions).</li></p>
 
 <li>Click 'create function'.</li>
 
