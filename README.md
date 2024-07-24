@@ -12,7 +12,9 @@ Create a simple python function i.e. one that suggests/prints a random drink
 
 ### Creating a Lambda function
 
-<li>Go to the [AWS Console](https://us-east-1.console.aws.amazon.com/console/home?region=us-east-1#) and search for ['Lambda'](https://us-east-1.console.aws.amazon.com/lambda/home?region=us-east-1#/functions).</li>
+<li>Go to the [AWS Console](https://us-east-1.console.aws.amazon.com/console/home?region=us-east-1#)
+  
+<li>search for ['Lambda'](https://us-east-1.console.aws.amazon.com/lambda/home?region=us-east-1#/functions).</li>
 
 <li>Click 'create function'.</li>
 
@@ -24,29 +26,29 @@ Create a simple python function i.e. one that suggests/prints a random drink
 
 ### Update Lambda function code
 
-Copy and paste function code from VS code into Lambda.
+<li>Copy and paste function code from VS code into Lambda.</li>
 
-To use the function you have to change the handler as well.
+<li>To use the function you have to change the handler as well.</li>
 
-Change the {message} string to a json payload object. This makes it easier to manage complex responses down the line.
+<li>Change the {message} string to a json payload object. This makes it easier to manage complex responses down the line.</li>
 
 ### Integrating Lambda with API Gateway
 
-Add a trigger so that Lambda knows when it should execute this function.
+<li>Add a trigger so that Lambda knows when it should execute this function.</li>
 
-In this case we used a http endpoint so that we could call it from anywhere with itnernet access (i.e. terminal or browser).
+<li>In this case we used a http endpoint so that we could call it from anywhere with itnernet access (i.e. terminal or browser).</li>
 
-Click 'add trigger' then choose 'API Gateway'.
+<li>Click 'add trigger' then choose 'API Gateway'.</li>
 
-Create a new API, then click 'HTTP APIs'.
+<li>Create a new API, then click 'HTTP APIs'.</li>
 
 As per[ Amazon's website](https://aws.amazon.com/about-aws/whats-new/2019/12/amazon-api-gateway-offers-faster-cheaper-simpler-apis-using-http-apis-preview/), HTTP APIs are up to 71% cheaper compared to REST APIs, but offer only API proxy functionality. HTTP APIs are optimized for performance - they offer the core functionality of API Gateway at a lower price.
 
-For security select 'Open' then click 'Add'
+<li>For security select 'Open' then click 'Add'</li>
 
 ### Testing the API integration
 
-Scroll down and click the API Endpoint link. It should look something like this: https://ge30cp599b.execute-api.us-east-1.amazonaws.com/default/RandomDrink
+<li>Scroll down and click the API Endpoint link. It should look something like this: https://ge30cp599b.execute-api.us-east-1.amazonaws.com/default/RandomDrink</li>
 
 You can also call this in VS code using:
 
@@ -58,11 +60,11 @@ curl https://ge30cp599b.execute-api.us-east-1.amazonaws.com/default/RandomDrink
 
 Now you have an API you can publicly use. You probably want to set some throttling limits before you start using it in any serious way. It's a bad idea to have an unbounded API because if somebody finds it or if you have a large amount of traffic then you can be stuck with a very large bill.
 
-Click on the API Gateway.
+<li>Click on the API Gateway.</li>
 
-Scroll down on the sidebar to Protect -> Throttling.
+<li>Scroll down on the sidebar to Protect -> Throttling.</li>
 
-Select a Stage then 'edit' the Default Route Setting.
+<li>Select a Stage then 'edit' the Default Route Setting.</li>
 
 ### Wrapping up
 
