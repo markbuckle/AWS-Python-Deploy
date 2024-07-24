@@ -12,15 +12,15 @@ Create a simple python function i.e. one that suggests/prints a random drink
 
 ### Creating a Lambda function
 
-Go to the [AWS Console](https://us-east-1.console.aws.amazon.com/console/home?region=us-east-1#) and search for ['Lambda'](https://us-east-1.console.aws.amazon.com/lambda/home?region=us-east-1#/functions).
+<li>Go to the [AWS Console](https://us-east-1.console.aws.amazon.com/console/home?region=us-east-1#) and search for ['Lambda'](https://us-east-1.console.aws.amazon.com/lambda/home?region=us-east-1#/functions).</li>
 
-Click 'create function'. 
+<li>Click 'create function'.</li>
 
-There are good templates if you want to explore them, but for this tutorial we will just use 'Author from Scratch'.
+<li>There are good templates if you want to explore them, but for this tutorial we will just use 'Author from Scratch'.</li>
 
-Type in a function name of your choice and select the relevant Python Runtime. 
+<li>Type in a function name of your choice and select the relevant Python Runtime.</li>
 
-Use a default function name and click 'test'.
+<li>Use a default function name and click 'test'.</li>
 
 ### Update Lambda function code
 
