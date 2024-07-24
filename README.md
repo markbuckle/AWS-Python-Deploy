@@ -12,9 +12,7 @@ Create a simple python function i.e. one that suggests/prints a random drink
 
 ### Creating a Lambda function
 
-Go to the [AWS Console](https://us-east-1.console.aws.amazon.com/console/home?region=us-east-1#)
-  
-search for ['Lambda'](https://us-east-1.console.aws.amazon.com/lambda/home?region=us-east-1#/functions).
+Go to the [AWS Console](https://us-east-1.console.aws.amazon.com/console/home?region=us-east-1#) and search for ['Lambda'](https://us-east-1.console.aws.amazon.com/lambda/home?region=us-east-1#/functions).
 
 <li>Click 'create function'.</li>
 
